@@ -1,0 +1,305 @@
+<!--   Implement a responsive grid system using Bootstrap to create a dynamic webpage layout. Test the template's performance on different devices and screen resolutions.  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Design with Bootstrap Templates</title>
+  <link rel="stylesheet" href="../Assest/CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="Assest/CSS/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <!--============================== Navbar Section Start ==============================-->
+
+  <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../Assest/Images/logo.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <a class="navbar-brand" href="#">
+                <img src="../Assest/Images/logo.png" alt="" />
+              </a>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-center text-lg-start">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  <i class="bi bi-house"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  <i class="bi bi-shop"></i> Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  <i class="bi bi-person-rolodex"></i> Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">
+                  <i class="bi bi-info-circle"></i> Help</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--============================== Navbar Section End ==============================-->
+
+  <!--============================== Hero Section Start ==============================-->
+
+  <div class="container-fluid p-0">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Assest/Images/1.jpg" class="d-block w-100" style="height: 650px; object-fit: cover" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="../Assest/Images/2.jpg" class="d-block w-100" style="height: 650px; object-fit: cover" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="../Assest/Images/img1.jpg" class="d-block w-100" style="height: 650px; object-fit: cover"
+            alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!--============================== Hero Section End ==============================-->
+  <!--============================== Product Section Start ==============================-->
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card text-center">
+          <img src="../Assest/Images/2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build</p>
+            <p class="card-text">
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-half"></i>
+              <i class="text-warning bi bi-star"></i>
+            </p>
+            <a href="#" class="btn btn-outline-primary"> Buy Now </a>
+            <a href="#" class="btn btn-outline-warning"> Add To Cart </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card text-center">
+          <img src="../Assest/Images/2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build</p>
+            <p class="card-text">
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-half"></i>
+              <i class="text-warning bi bi-star"></i>
+            </p>
+            <a href="#" class="btn btn-outline-primary"> Buy Now </a>
+            <a href="#" class="btn btn-outline-warning"> Add To Cart </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card text-center">
+          <img src="../Assest/Images/2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build</p>
+            <p class="card-text">
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-half"></i>
+              <i class="text-warning bi bi-star"></i>
+            </p>
+            <a href="#" class="btn btn-outline-primary"> Buy Now </a>
+            <a href="#" class="btn btn-outline-warning"> Add To Cart </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card text-center">
+          <img src="../Assest/Images/2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build</p>
+            <p class="card-text">
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-half"></i>
+              <i class="text-warning bi bi-star"></i>
+            </p>
+            <a href="#" class="btn btn-outline-primary"> Buy Now </a>
+            <a href="#" class="btn btn-outline-warning"> Add To Cart </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card text-center">
+          <img src="../Assest/Images/2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build</p>
+            <p class="card-text">
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-half"></i>
+              <i class="text-warning bi bi-star"></i>
+            </p>
+            <a href="#" class="btn btn-outline-primary"> Buy Now </a>
+            <a href="#" class="btn btn-outline-warning"> Add To Cart </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card text-center">
+          <img src="../Assest/Images/2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build</p>
+            <p class="card-text">
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-half"></i>
+              <i class="text-warning bi bi-star"></i>
+            </p>
+            <a href="#" class="btn btn-outline-primary"> Buy Now </a>
+            <a href="#" class="btn btn-outline-warning"> Add To Cart </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card text-center">
+          <img src="../Assest/Images/2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build</p>
+            <p class="card-text">
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-half"></i>
+              <i class="text-warning bi bi-star"></i>
+            </p>
+            <a href="#" class="btn btn-outline-primary"> Buy Now </a>
+            <a href="#" class="btn btn-outline-warning"> Add To Cart </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 col-xl-3 my-2">
+        <div class="card text-center">
+          <img src="../Assest/Images/2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build</p>
+            <p class="card-text">
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-fill"></i>
+              <i class="text-warning bi bi-star-half"></i>
+              <i class="text-warning bi bi-star"></i>
+            </p>
+            <a href="#" class="btn btn-outline-primary"> Buy Now </a>
+            <a href="#" class="btn btn-outline-warning"> Add To Cart </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--============================== Product Section End ==============================-->
+
+  <!--============================== Footer Section Start ==============================-->
+
+  <div class="container-fluid bg-dark text-light p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 footer_Contact">
+          <h5>Contact Us</h5>
+
+          <p>
+            <i class="bi bi-envelope-at"></i> E-mail :-
+            <a href="#">demo@gmail.com</a>
+          </p>
+          <p>
+            <i class="bi bi-phone"></i> Call On :-
+            <a href="#">+91 1234567890</a>
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 footer_Links text-center">
+          <h5>Links</h5>
+
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 footer_icons">
+          <h5>Follow Us</h5>
+
+          <p>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3" style="overflow: hidden">
+          <h5><i class="bi bi-geo-alt"></i> Location</h5>
+
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.496333755166!2d72.56664087416513!3d23.04225831559545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9d2ef0e077d7%3A0x893d1817b1493105!2sBrainyBeam%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1716897994471!5m2!1sen!2sin"
+              style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="text-center text-light bg-dark ">
+    <p>&copy; 2024 CARRENTEL. All rights reserved.
+      <hr width="100%" size="20" color="black" noshade>
+    </p>
+  </div>
+  <!--============================== Footer Section End ==============================-->
+</body>
+<script src="../Assest/JS/bootstrap.bundle.min.js"></script>
+
+</html>

@@ -1,0 +1,408 @@
+/* Demo-4 css part */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: aqua;
+  background-color: red;
+  text-align: center;
+}
+
+.Main_class {
+  color: aqua;
+  background-color: red;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 900;
+  text-decoration: line-through;
+  text-decoration-color: aqua;
+}
+
+span {
+  background-color: red;
+  color: aqua;
+  font-size: 20px;
+}
+
+.Main_Div {
+  border: 2px dotted black;
+}
+
+.Main_Div1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+  background-image: url(../Images/img1.jpg), url(../Images/img1.jpg),
+    url(../Images/img1.jpg);
+  background-size: 100% 100%;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  background-position: top center, top left, top right;
+} */
+
+/* Demo-5 css part */
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.Main_Div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  background-color: black;
+  color: snow;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 40px;
+}
+
+a p {
+  display: none;
+}
+
+a:hover p {
+  display: block;
+}
+
+a:hover {
+  background-color: lime;
+  color: black;
+  box-shadow: 0px 0px 30px 0px red;
+  text-shadow: 0px 0px 20px;
+}
+
+.child_div {
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  border: 1.5px dotted black;
+  background-color: aqua;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin: 20px 20px;
+  margin: 20px 20px 0px 40px;
+}
+
+.child_div {
+  padding: 20px;
+  padding: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px 25px 30px 0px;
+  box-sizing: border-box;
+}
+
+.div-1 {
+  float: left;
+}
+
+.div-2 {
+  float: left;
+}
+
+.div-3 {
+  float: left;
+}
+
+.div-3 {
+  float: left;
+}
+
+.div-4 {
+  float: left;
+}
+
+.div-5 {
+  float: left;
+}
+
+.div-6 {
+  float: left;
+} */
+
+/* Demo-6 Css Part */
+body {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+
+.Main_div {
+  background-color: aqua;
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+
+.child_div {
+  height: 100px;
+  width: 100px;
+  border: 1.5px solid black;
+  position: absolute;
+  z-index: -1;
+}
+
+.div-1 {
+  top: -50px;
+  left: -50px;
+}
+
+.div-2 {
+  top: -50px;
+  right: -50px;
+}
+
+.div-3 {
+  bottom: -50px;
+  right: -50px;
+}
+
+.div-4 {
+  bottom: -50px;
+  left: -50px;
+}
+
+/* a {
+  text-decoration: none !important;
+}
+
+#navbar {
+  background-color: black;
+  padding: 9.5px;
+  display: flex;
+  justify-content: end;
+}
+
+#navbar ul a li {
+  display: inline;
+  padding: 10px 25px;
+  color: black;
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+#navbar ul a li:hover {
+  color: red;
+  background-color: snow;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+#Drop ul li {
+  line-height: 50px;
+  width: 384px;
+  background-color: black;
+  color: snow;
+  opacity: 0.6;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+
+#Drop ul li:hover {
+  opacity: 1;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(18, 99, 71, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#Drop ul li ul {
+  display: none;
+}
+
+#Drop ul li:hover > ul {
+  display: block;
+}
+
+#Drop ul li ul li {
+  position: relative;
+}
+
+#Drop ul li ul li ul {
+  position: absolute;
+  left: 382px;
+  top: 0;
+} */
+
+/* .wrapper {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  background-color: aqua;
+} */
+
+
+/* Demo-7 CSS part  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.Child_div{
+    height: 200px;
+    width: 200px;
+    float: left;
+   /*  transition: 2s ease-in-out;
+    border-radius: 50%; */
+}
+/* img{
+    border-radius: 50%;
+} 
+.Main_div{
+    height: 100vh;
+    width: 100wh;
+    display: grid;
+    place-items: center;
+    background-color: black;
+} 
+.Child_div:hover{
+    transform:translateY(-20px) ;
+    transform:translateX(-20px) ;
+    transform:rotate(360deg);
+    transform: scaleX(1.1);
+    transform: scaleY(1.5) scaleX(1.7);
+} 
+ */
+.div_1{
+    background-color: chocolate;
+}
+.div_2{
+    background-color:antiquewhite;
+}
+.div_3{
+    background-color: aqua;
+}
+.div_4{
+    background-color: aquamarine;
+}
+.div_5{
+    background-color: azure;
+}
+.div_6{
+    background-color: black;
+} 
+
+/* max-width- 0px to 576px */
+/* min-width- 577px to 1400px*/
+
+/* @media only screen and (max-width:576px){
+    .div_1{
+        background-color: blue;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:800px){
+    .div_1{
+        background-color:crimson;
+    }
+} */
+
+/* @media only screen and (max-width:576px){
+    .Child_div{
+        clear: both;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    .div_3,.div_5{
+        clear: both;
+    }
+    .Child_div{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    .div_4{
+        clear: both;
+    }
+    .Child_div{
+        width: 33.33%;
+    }
+}
+@media only screen and (min-width:1025px){
+    .Child_div{
+        width: 16.5%;
+    }
+} */
+
+/* Demo-10 CSS part 
+a {
+  text-decoration: none;
+  color: snow;
+}
+
+.navbar-brand img {
+  height: 20px;
+  width: 160px;
+}
+
+.nav-link {
+  margin: 5px;
+  color: black !important;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 40px;
+  padding: 10px 30px !important;
+}
+
+.nav-link i {
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: lime !important;
+}
+
+.footer_Contact i {
+  font-size: 20px;
+}
+
+.footer_Links li:hover a {
+  color: lime !important;
+}
+
+.footer_icons i {
+  font-size: 26px;
+  margin: 0px 8px;
+}
+
+.footer_icons a:hover {
+  color: lime;
+}*/
+
+/* Demo-14 CSS Part 
+.btn{
+    margin: 20px;
+    padding: 10px  35px;
+    border-radius: 40px;
+    background-color: black;
+    color: snow;
+    border:0;
+}
+.btn:hover{
+    background-color: lime;
+    color:black;
+}
+*/
